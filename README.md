@@ -4,13 +4,13 @@ This is a project written in C for registering hikes with name, length and heigh
 ## How to run the program (using the terminal):
 We're going to use GCC (GNU Compiler Collection) to run the program
 Type `gcc -v` to see if you have a complier installed. If you don't already have it, download it.
-1. Traverse to the project's directory
-2. Then run (based on operating system):
-  -Unix system: `gcc -o hiking hiking.c`
-  -Windows: `gcc -o hiking.exe hiking.c`
-3. Run: 
-  -Unix system: `./hiking`
-  -Windows: `hiking.exe`
+* Traverse to the project's directory
+* Then run (based on operating system):
+  * Unix system: `gcc -o hiking hiking.c`
+  * Windows: `gcc -o hiking.exe hiking.c`
+* Run: 
+  * Unix system: `./hiking`
+  * Windows: `hiking.exe`
 
 ## A mini-guide for the program:
 You will be promted with 3 separate inputs in this given order: Name, length, height.
