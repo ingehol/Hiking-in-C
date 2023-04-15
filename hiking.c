@@ -40,7 +40,9 @@ HIKE *append (HIKE *head, HIKE *newp) {
 	return head;
 }
 
+
 // using pointer-to-pointer to print out the result
+// first prints out the total length and height, then iterates through the linked list, printing out one element at the time
 void printEndResult(HIKE **toPrint) {
 	HIKE **nextHike = toPrint;
     printf("---------------------------------------------- \n PRINTING ALL REGISTERED HIKES \n Total length: %.2f \n Total height: %.2f \n---------------------------------------------- \n", totalLength, totalHeight);
